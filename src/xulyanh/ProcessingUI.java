@@ -114,7 +114,7 @@ public class ProcessingUI extends javax.swing.JFrame {
         pnCtroll.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         cbFunction.setMaximumRowCount(20);
-        cbFunction.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "GrayScale Conversion Image", "Histogram Equalization", "Negative Image", "Thresholding", "Logarithmic transformation", "Power law transforms", "Bit plane slicing", "Spatial Filtering", "Edges processing", "Laplcian Filtered Image", "Sharpened Image", "Sobel Filter", "Soble Filter with Thresholding", "Points Detection", "Lines Detection", "Erosion", "Dilation", "Opening", "Closing", "Boundary Extraction", "Region Filling" }));
+        cbFunction.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Chuyển đổi ảnh sang thang xám", "Cân bằng biểu đồ Histogram", "Ảnh âm bản", "Phân ngưỡng", "Chuyển đổi Logarithmic", "Biến đổi theo luật mũ", "Cắt mặt phẳng bit", "Lọc không gian", "Xử lý cạnh", "Lọc Laplacian", "Làm sắc nét ảnh", "Lọc Sobel", "Lọc Sobel với ngưỡng", "Phát hiện điểm", "Phát hiện đường thẳng", "Co ảnh (Erosion)", "Giãn ảnh (Dilation)", "Mở ảnh (Opening)", "Đóng ảnh (Closing)", "Trích biên (Boundary Extraction)", "Điền vùng (Region Filling)", " " }));
         cbFunction.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cbFunctionActionPerformed(evt);
@@ -600,7 +600,7 @@ public class ProcessingUI extends javax.swing.JFrame {
                     // hiện thị 
                     lblModPicture.setIcon(new ImageIcon(bi4));
                 } else {
-                    JOptionPane.showMessageDialog(null, " Nhập sai rồi ! 0 <= C <= 10 ");
+                    JOptionPane.showMessageDialog(null, " Nhập sai rồi ! 1 <= C <= 20 ");
                 }
                 break;
 

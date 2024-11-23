@@ -150,28 +150,29 @@
                   <Properties>
                     <Property name="maximumRowCount" type="int" value="20"/>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="21">
-                        <StringItem index="0" value="GrayScale Conversion Image"/>
-                        <StringItem index="1" value="Histogram Equalization"/>
-                        <StringItem index="2" value="Negative Image"/>
-                        <StringItem index="3" value="Thresholding"/>
-                        <StringItem index="4" value="Logarithmic transformation"/>
-                        <StringItem index="5" value="Power law transforms"/>
-                        <StringItem index="6" value="Bit plane slicing"/>
-                        <StringItem index="7" value="Spatial Filtering"/>
-                        <StringItem index="8" value="Edges processing"/>
-                        <StringItem index="9" value="Laplcian Filtered Image"/>
-                        <StringItem index="10" value="Sharpened Image"/>
-                        <StringItem index="11" value="Sobel Filter"/>
-                        <StringItem index="12" value="Soble Filter with Thresholding"/>
-                        <StringItem index="13" value="Points Detection"/>
-                        <StringItem index="14" value="Lines Detection"/>
-                        <StringItem index="15" value="Erosion"/>
-                        <StringItem index="16" value="Dilation"/>
-                        <StringItem index="17" value="Opening"/>
-                        <StringItem index="18" value="Closing"/>
-                        <StringItem index="19" value="Boundary Extraction"/>
-                        <StringItem index="20" value="Region Filling"/>
+                      <StringArray count="22">
+                        <StringItem index="0" value="Chuy&#x1ec3;n &#x111;&#x1ed5;i &#x1ea3;nh sang thang x&#xe1;m"/>
+                        <StringItem index="1" value="C&#xe2;n b&#x1eb1;ng bi&#x1ec3;u &#x111;&#x1ed3; Histogram"/>
+                        <StringItem index="2" value="&#x1ea2;nh &#xe2;m b&#x1ea3;n"/>
+                        <StringItem index="3" value="Ph&#xe2;n ng&#x1b0;&#x1ee1;ng"/>
+                        <StringItem index="4" value="Chuy&#x1ec3;n &#x111;&#x1ed5;i Logarithmic"/>
+                        <StringItem index="5" value="Bi&#x1ebf;n &#x111;&#x1ed5;i theo lu&#x1ead;t m&#x169;"/>
+                        <StringItem index="6" value="C&#x1eaf;t m&#x1eb7;t ph&#x1eb3;ng bit"/>
+                        <StringItem index="7" value="L&#x1ecd;c kh&#xf4;ng gian"/>
+                        <StringItem index="8" value="X&#x1eed; l&#xfd; c&#x1ea1;nh"/>
+                        <StringItem index="9" value="L&#x1ecd;c Laplacian"/>
+                        <StringItem index="10" value="L&#xe0;m s&#x1eaf;c n&#xe9;t &#x1ea3;nh"/>
+                        <StringItem index="11" value="L&#x1ecd;c Sobel"/>
+                        <StringItem index="12" value="L&#x1ecd;c Sobel v&#x1edb;i ng&#x1b0;&#x1ee1;ng"/>
+                        <StringItem index="13" value="Ph&#xe1;t hi&#x1ec7;n &#x111;i&#x1ec3;m"/>
+                        <StringItem index="14" value="Ph&#xe1;t hi&#x1ec7;n &#x111;&#x1b0;&#x1edd;ng th&#x1eb3;ng"/>
+                        <StringItem index="15" value="Co &#x1ea3;nh (Erosion)"/>
+                        <StringItem index="16" value="Gi&#xe3;n &#x1ea3;nh (Dilation)"/>
+                        <StringItem index="17" value="M&#x1edf; &#x1ea3;nh (Opening)"/>
+                        <StringItem index="18" value="&#x110;&#xf3;ng &#x1ea3;nh (Closing)"/>
+                        <StringItem index="19" value="Tr&#xed;ch bi&#xea;n (Boundary Extraction)"/>
+                        <StringItem index="20" value="&#x110;i&#x1ec1;n v&#xf9;ng (Region Filling)"/>
+                        <StringItem index="21" value=" "/>
                       </StringArray>
                     </Property>
                   </Properties>
